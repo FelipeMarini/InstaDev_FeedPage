@@ -100,86 +100,76 @@ body{
 
 
 
+
 /* Início da seção de profiles */
-
-
-
 
 
 .box-profiles{
 
-    background-color: royalblue;
-    background: #ffffff;
-    box-sizing: border-box;
-    border: solid 1px #f1f1f1;
-    width: 38.12em;
-    height: 7.06em;
-    margin-top: 1.5em;
+    /* background-color: blue; */
+    width: 934px;
+    height: 113px;
+    margin-top: 24px;
     margin-left: 25.46%;
-    margin-right: 42.76%;
-    
-}
-
-
-.container-profiles {
-
-    background-color: green;
-    width: 36.31em;
-    height: 5em;
-    padding-top: 1em;
-    margin-left: 1em;
-    
-}
-
-
-
-.profile-imgs {
-
-    background-color: khaki;
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+}
+
+
+.box-friends{
+
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
     height: 100%;
-    margin-right: 2em;
+    width: 65%;
 }
 
 
-.profile-imgs img {
+.container-user{
 
-    width: 3.875em;
-    height: 3.875em;
-}
-
-
-.profile-textos{
-    
-    background-color: orangered;
-    width: 43em;
-    height: 1.06em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 0.81em;
-    font-weight: 400;
-    color: black;
-    margin-left: 1.3em;
+    /* background-color: lightsalmon; */
+    height: 100%;
+    width: 35%;
     display: flex;
-    justify-content: space-between;
 }
 
 
-.profile-textos p{
+.container-img{
 
-    padding-left: 12px;
-
+    /* background-color: maroon; */
+    width: 62px;
+    height: 62px;
+    margin-top: 19px;
+    margin-left: 32px;
 }
 
 
+.container-text{
 
-/* Fim da seção de profiles */
+    /* background-color: purple; */
+    width: 209px;
+    height: 44px;
+    margin-top: 28px;
+    margin-left: 21px;
+}
+
+.container-text p {
+ 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+}
+
+
+.container-text p:nth-child(2){
+
+        color: #b6b6b6;
+}
 
 
 
 /* Início da seção de postar */
-
 
 
 .box-postar {
